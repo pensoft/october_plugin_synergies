@@ -1,0 +1,10 @@
+1.0.1: 'First version of Synergies'
+1.0.2:
+    - 'Created table pensoft_synergies_data'
+    - builder_table_create_pensoft_synergies_data.php
+1.0.3:
+    - 'Created table pensoft_synergies_articles'
+    - builder_table_create_pensoft_synergies_articles.php
+1.0.4:
+    - 'Updated table pensoft_synergies_data'
+    - builder_table_update_pensoft_synergies_data.php

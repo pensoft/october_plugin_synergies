@@ -1,0 +1,60 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    logo:
+        label: Logo
+        mode: image
+        imageWidth: '250'
+        imageHeight: '250'
+        fileTypes: 'jpeg, jpg, svg, png'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    url:
+        label: Website
+        span: auto
+        type: text
+        comment: 'Include http(s)://'
+    newsletter:
+        label: Newsletter
+        span: auto
+        type: text
+    description:
+        label: Description
+        size: large
+        span: full
+        type: richeditor
+    social_media:
+        label: 'Social media links'
+        prompt: 'Add new item'
+        style: default
+        span: auto
+        type: repeater
+        form:
+            fields:
+                media:
+                    label: Media
+                    options:
+                        'twitter (X)': twitter
+                        instagram: instagram
+                        linkedin: linkedin
+                        facebook: facebook
+                        youtube: youtube
+                    showSearch: true
+                    span: auto
+                    type: dropdown
+                link:
+                    label: 'Link to profile'
+                    span: auto
+                    type: text
+    articles:
+        label: 'Related articles'
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation

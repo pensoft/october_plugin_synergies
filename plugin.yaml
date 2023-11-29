@@ -1,0 +1,11 @@
+plugin:
+    name: Synergies
+    description: 'pensoft.synergies::lang.plugin.description'
+    author: Pensoft
+    icon: oc-icon-institution
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Synergies
+        url: pensoft/synergies/synergies
+        icon: icon-institution
