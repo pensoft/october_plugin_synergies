@@ -81,13 +81,11 @@ class Plugin extends PluginBase
      */
     public function registerNavigation()
     {
-        return []; // Remove this line to activate
-
         return [
             'synergies' => [
                 'label'       => 'Synergies',
-                'url'         => Backend::url('pensoft/synergies/mycontroller'),
-                'icon'        => 'icon-leaf',
+                'url'         => Backend::url('pensoft/synergies/synergies'),
+                'icon'        => 'oc-icon-institution',
                 'permissions' => ['pensoft.synergies.*'],
                 'order'       => 500,
             ],
