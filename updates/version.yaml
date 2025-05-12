@@ -10,3 +10,6 @@
     - builder_table_update_pensoft_synergies_data.php
 1.0.5:
     - 'Display in backend menu fix'
+1.0.6:
+    - 'Updated table pensoft_synergies_data'
+    - builder_table_update_pensoft_synergies_data_2.php

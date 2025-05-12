@@ -24,6 +24,14 @@ fields:
         label: Newsletter
         span: auto
         type: text
+    type:
+        label: Type
+        options:
+            1: Research
+            2: Outreach
+        showSearch: true
+        span: auto
+        type: dropdown
     description:
         label: Description
         size: large
@@ -45,6 +53,7 @@ fields:
                         linkedin: linkedin
                         facebook: facebook
                         youtube: youtube
+                        bluesky: bluesky
                     showSearch: true
                     span: auto
                     type: dropdown
