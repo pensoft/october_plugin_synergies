@@ -32,6 +32,10 @@ fields:
         showSearch: true
         span: auto
         type: dropdown
+    label:
+        label: Label
+        span: auto
+        type: text
     description:
         label: Description
         size: large
