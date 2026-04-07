@@ -1,0 +1,5 @@
+title: Synergies
+nameFrom: name
+modelClass: Pensoft\Synergies\Models\Synergy
+toolbar:
+    buttons: reorder_toolbar

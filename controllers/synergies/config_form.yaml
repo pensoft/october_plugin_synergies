@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Synergy
+
+# Model Form Field configuration
+form: $/pensoft/synergies/models/synergy/fields.yaml
+
+# Model Class name
+modelClass: Pensoft\Synergies\Models\Synergy
+
+# Default redirect location
+defaultRedirect: pensoft/synergies/synergies
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: pensoft/synergies/synergies/update/:id
+    redirectClose: pensoft/synergies/synergies
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: pensoft/synergies/synergies
+    redirectClose: pensoft/synergies/synergies
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
